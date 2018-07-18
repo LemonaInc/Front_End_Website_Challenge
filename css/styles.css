@@ -9,7 +9,7 @@
 }
 /* ---------------- Containers ---------------- */
 
-#topNavigationFlexContainer {
+#top-navigation-flex-container {
     position: relative;
     height:256px;
     display: flex;  
@@ -20,8 +20,17 @@
     flex-direction: row;
 }
 
-#navigationButtonsContainer {
+#navigation-buttons-container {
     padding-left: 60vw;
+    padding-bottom: 200px;
+    margin: auto;
+    height:16px;
+    text-align: center;
+}
+
+#person-profile-container {
+    position: relative;
+    left: 100px;
     padding-bottom: 200px;
     margin: auto;
     height:16px;
@@ -30,12 +39,26 @@
 
 /* ---------------- Buttons ---------------- */
 
-.navigationButton {
+.navigation-button {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     background-color: transparent;
     border-color: transparent;
     font-size: 16px;
+}
+
+.person-name {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* ---------------- Images ---------------- */
+
+.profile-picture {
+    width: 296px;
+    height: 240px;
+    position: relative;
 }
 
 

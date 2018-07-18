@@ -1,13 +1,15 @@
 
-/* Import Fonts */
+/* ---------------- Fonts ---------------- */
+
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 @font-face {
     font-family: "Helvetica";
     src:url("/fonts/Helvetica.ttc");
 }
+/* ---------------- Containers ---------------- */
 
- #topNavigation {
+#topNavigationFlexContainer {
     position: relative;
     height:256px;
     display: flex;  
@@ -17,4 +19,25 @@
     -webkit-flex-direction: row;
     flex-direction: row;
 }
+
+#navigationButtonsContainer {
+    padding-left: 60vw;
+    padding-bottom: 200px;
+    margin: auto;
+    height:16px;
+    text-align: center;
+}
+
+/* ---------------- Buttons ---------------- */
+
+.navigationButton {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 16px;
+}
+
+
+
 

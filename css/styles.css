@@ -1,0 +1,20 @@
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@font-face {
+    font-family: "Helvetica";
+    src:url("/fonts/Helvetica.ttc");
+}
+
+ #topNavigation {
+    position: relative;
+    height:256px;
+    display: flex;  
+    background-color: #DA2128; 
+    -webkit-box-flex-direction: row;
+    -moz-box-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+

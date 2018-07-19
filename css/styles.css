@@ -82,7 +82,7 @@ top: 2px;
     text-align: center;
     position: relative;
     bottom: 90px;
-    left: 220px;
+    left: 180px;
 }
 
 #profile-buttons-container {
@@ -124,6 +124,7 @@ top: 2px;
     border-color: transparent;
     border-radius: 20px;
     font-size: 22px;
+    margin-left: 20px;
 }
 
 .profile-button {

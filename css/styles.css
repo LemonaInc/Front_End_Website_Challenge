@@ -39,14 +39,21 @@ p {
     font-family: 'Helvetica', sans-serif;
     color: #ffffff;
     font-size: 22px;
+    position: relative;
+    bottom: 25px;
 }
 
-.about-paragraph {
- left: 40px;
+.about-paragraph, .about-title {
+ left: 20px;
+ max-width: 650px;
 }
 
-.about-title {
- left: 40px;
+.small-icon {
+color: #ffffff;
+font-size: 25px;
+position: relative;
+right: 100px;
+top: 2px;
 }
 
 /* ---------------- Containers ---------------- */
@@ -58,7 +65,7 @@ p {
     width: 100vw; 
     top: -8px; 
     left: -8px; 
-    background-color: #DA2128; 
+    background-color: rgba(218,33,40,100);
     -webkit-box-flex-direction: row;
     -moz-box-flex-direction: row;
     -webkit-flex-direction: row;
@@ -82,7 +89,7 @@ p {
     bottom: 200px;
 }
 
-#person-profile-container {
+#profile-container {
     position: relative;
     left: 100px;
     margin: auto;
@@ -142,10 +149,11 @@ p {
 
 .profile-picture {
     position: relative;
-    bottom: 200px;
+    bottom: 230px;
     right: 520px;
     width: 296px;
     height: 240px;  
+    border-radius: 10px;
 }
 
 

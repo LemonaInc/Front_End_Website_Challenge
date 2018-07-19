@@ -7,6 +7,10 @@
     font-family: "Helvetica";
     src:url("/fonts/Helvetica.ttc");
 }
+
+body {
+    background-color: #F9F9F9;
+}
 /* ---------------- Containers ---------------- */
 
 #top-navigation-flex-container {
@@ -35,6 +39,17 @@
     margin: auto;
     height:16px;
     text-align: center;
+}
+
+#card-container {
+    background-color: #ffffff;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    height: 320px;
+    width: 696px;
+    bottom:200px;
+    border-radius: 15px;
 }
 
 /* ---------------- Buttons ---------------- */

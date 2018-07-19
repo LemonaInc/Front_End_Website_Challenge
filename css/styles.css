@@ -10,13 +10,41 @@
 
 body {
     background-color: #F9F9F9;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
 }
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    color: #DA2128;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    text-align: left;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif;
+    color: #1C1E20;
+    font-weight: 100;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+}
+
 /* ---------------- Containers ---------------- */
 
 #top-navigation-flex-container {
     position: relative;
     height:256px;
-    display: flex;  
+    display: flex;
+    width: 100vw; 
+    top: -8px;  
     background-color: #DA2128; 
     -webkit-box-flex-direction: row;
     -moz-box-flex-direction: row;
@@ -48,14 +76,14 @@ body {
     text-align: center;
     height: 320px;
     width: 696px;
-    bottom:200px;
+    bottom:150px;
     border-radius: 15px;
 }
 
 /* ---------------- Buttons ---------------- */
 
 .navigation-button {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     color: #ffffff;
     background-color: transparent;
     border-color: transparent;
@@ -63,7 +91,7 @@ body {
 }
 
 .person-name {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     color: #ffffff;
     font-size: 16px;
 }

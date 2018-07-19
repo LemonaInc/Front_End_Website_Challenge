@@ -155,12 +155,9 @@ top: 2px;
     border-radius: 10px;
 }
 
-/* ---------------- Mobile Optimization (Tablets) ---------------- */
+/* ---------------- Device Optimization (930px or less) ---------------- */
 
 @media only screen and (max-width: 930px) {
-
-
-/* ---------------- Mobile Containers ---------------- */
 
     #card-container {
         top: 100px;
@@ -173,19 +170,131 @@ top: 2px;
     }
 
     #profile-container {
-        height:16px;
         bottom: 390px;
         left: -300px;
     }
 
     #navigation-buttons-container {
-        height: 16px;
         bottom: 400px;
         left: 250px;
+    }
+
+}
+/* ---------------- Device Optimization (660 or less px) ---------------- */
+
+
+@media only screen and (max-width: 660px) {
+
+    #card-container {
+        top: 40px;
+        left: -50px;
+        transform: scale(0.7);
+    }
+
+    .profile-picture {
+        bottom: 500px;
+        left: 0px;
+    }
+
+    #profile-container {
+        left: -300px;
+    }
+
+    #navigation-buttons-container {
+        bottom: 400px;
+        left: 40vw;
+    }
+
+}
+
+/* ---------------- Device Optimization (560 or less px) ---------------- */
+
+@media only screen and (max-width: 560px) {
+
+    #card-container {
+        top: 0px;
+        left: -80px;
+        transform: scale(0.6);
+    }
+
+    #profile-container {
+        left: -300px;
+    }
+
+    #navigation-buttons-container {
+        bottom: 400px;
+        left: 40vw;
     }
 
 }
 
 
 
+/* ---------------- Device Optimization (560 or less px) ---------------- */
 
+@media only screen and (max-width: 460px) {
+
+    #card-container {
+        top: -40px;
+        left: -140px;
+        transform: scale(0.5);
+    }
+
+    #profile-container {
+        left: -300px;
+    }
+
+    #navigation-buttons-container {
+        bottom: 400px;
+        left: 40vw;
+    }
+
+}
+
+/* ---------------- Mobile Optimization (iPhone X, 6+, 7+  8+ 6, 6S, 7, 8,  5, 5S, 5C and 5SE and iPad)---------------- */
+
+@media (min-device-width: 768px) and (max-device-width: 1024px), 
+(min-device-width: 320px) and (max-device-width: 568px), 
+(min-device-width: 375px) and (max-device-width: 667px), 
+(min-device-width: 375px) and (max-device-width: 812px)  { 
+
+
+    #card-container {
+        top: 400px;
+        left: 0px;
+        transform: scale(1.2);
+    }
+
+    .profile-picture {
+        bottom: 500px;
+        left: 0px;
+    }
+
+    #profile-container {
+        bottom: 500px;
+        left: 20px;
+    }
+
+    #navigation-buttons-container {
+        bottom: 400px;
+        left: 0px;
+    }
+
+    .navigation-button {
+        font-size: 30px;
+    }
+
+    .person-name {
+        font-size: 50px;
+    }
+
+    .small-icon {
+        font-size: 50px;
+        right: 220px;
+        top: 30px;
+    }
+
+    .about-title {
+        font-size: 30px;
+    }
+ }

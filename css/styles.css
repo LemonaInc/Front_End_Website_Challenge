@@ -20,7 +20,7 @@ a {
 
 h1 {
     font-family: 'Helvetica', sans-serif;
-    color: #DA2128;
+    color: #E14D52;
     font-weight: bold;
     position: relative;
     text-align: left;
@@ -69,7 +69,7 @@ top: 2px;
     width: 100vw; 
     top: -8px; 
     left: -8px; 
-    background-color: rgba(218,33,40,100);
+    background-color: #E14D52;
     -webkit-box-flex-direction: row;
     -moz-box-flex-direction: row;
     -webkit-flex-direction: row;

@@ -144,7 +144,12 @@ top: 2px;
 
 /* ---------------- Buttons on hover ---------------- */
 
-.profile-button:hover, .navigation-button:hover {
+.profile-button:hover {
+    color: #ffffff;
+    background-color: #E14D52;
+}
+
+.navigation-button:hover {
     color: #ffffff;
     background-color: #1C1E20;
 }

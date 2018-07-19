@@ -35,6 +35,12 @@ p {
 
 /* ---------------- Titles & Text ---------------- */
 
+.person-name {
+    font-family: 'Helvetica', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+}
+
 .about-paragraph {
  left: 40px;
 }
@@ -47,7 +53,7 @@ p {
 
 #top-navigation-flex-container {
     position: relative;
-    height:256px;
+    height: 256px;
     display: flex;
     width: 100vw; 
     top: -8px; 
@@ -61,11 +67,19 @@ p {
 
 #navigation-buttons-container {
     margin: auto;
-    height:16px;
+    height: 16px;
     text-align: center;
     position: relative;
     bottom: 90px;
     left: 220px;
+}
+
+#profile-buttons-container {
+    margin: auto;
+    height: 16px;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
 }
 
 #person-profile-container {
@@ -101,11 +115,22 @@ p {
     font-size: 22px;
 }
 
-.person-name {
-    font-family: 'Helvetica', sans-serif;
-    color: #ffffff;
-    font-size: 22px;
+.profile-button {
+    position: relative;
+    height: 45px;
+    width: auto;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #1C1E20;
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin-left: 10px;
+    
 }
+
 
 /* ---------------- Images ---------------- */
 

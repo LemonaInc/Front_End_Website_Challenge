@@ -5,13 +5,13 @@
 
 @font-face {
     font-family: "Helvetica";
-    src:url("/fonts/Helvetica.ttc");
+    src:url("../fonts/helvetica.ttc");
 }
 
 body {
     background-color: #F9F9F9;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 
 h1 {
@@ -19,8 +19,6 @@ h1 {
     color: #DA2128;
     font-weight: bold;
     position: relative;
-    top: 40px;
-    left: 40px;
     text-align: left;
     font-size: 24px;
 }
@@ -30,11 +28,19 @@ p {
     color: #1C1E20;
     font-weight: 100;
     position: relative;
-    top: 40px;
-    left: 40px;
     text-align: left;
     font-size: 18px;
     line-height: 32px;
+}
+
+/* ---------------- Titles & Text ---------------- */
+
+.about-paragraph {
+ left: 40px;
+}
+
+.about-title {
+ left: 40px;
 }
 
 /* ---------------- Containers ---------------- */
@@ -44,7 +50,8 @@ p {
     height:256px;
     display: flex;
     width: 100vw; 
-    top: -8px;  
+    top: -8px; 
+    left: -8px; 
     background-color: #DA2128; 
     -webkit-box-flex-direction: row;
     -moz-box-flex-direction: row;
@@ -53,20 +60,22 @@ p {
 }
 
 #navigation-buttons-container {
-    padding-left: 60vw;
-    padding-bottom: 200px;
     margin: auto;
     height:16px;
     text-align: center;
+    position: relative;
+    bottom: 90px;
+    left: 220px;
 }
 
 #person-profile-container {
     position: relative;
     left: 100px;
-    padding-bottom: 200px;
     margin: auto;
     height:16px;
     text-align: center;
+    bottom: 70px;
+    left: -550px;
 }
 
 #card-container {
@@ -76,8 +85,10 @@ p {
     text-align: center;
     height: 320px;
     width: 696px;
-    bottom:150px;
+    bottom: 150px;
+    left: 180px;
     border-radius: 15px;
+    transform: scale(0.8);
 }
 
 /* ---------------- Buttons ---------------- */
@@ -87,21 +98,23 @@ p {
     color: #ffffff;
     background-color: transparent;
     border-color: transparent;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .person-name {
     font-family: 'Helvetica', sans-serif;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 /* ---------------- Images ---------------- */
 
 .profile-picture {
-    width: 296px;
-    height: 240px;
     position: relative;
+    bottom: 200px;
+    right: 520px;
+    width: 296px;
+    height: 240px;  
 }
 
 

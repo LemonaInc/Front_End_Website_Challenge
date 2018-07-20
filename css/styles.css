@@ -1,0 +1,302 @@
+
+/* ---------------- Fonts ---------------- */
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@font-face {
+    font-family: "Helvetica";
+    src:url("../fonts/helvetica.ttc");
+}
+
+body {
+    background-color: #F9F9F9;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    color: #E14D52;
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif;
+    color: #1C1E20;
+    font-weight: 100;
+    position: relative;
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+/* ---------------- Titles & Text ---------------- */
+
+.person-name {
+    font-family: 'Helvetica', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    position: relative;
+    bottom: 25px;
+}
+
+.about-paragraph, .about-title {
+ left: 20px;
+ max-width: 650px;
+}
+
+.small-icon {
+color: #ffffff;
+font-size: 25px;
+position: relative;
+right: 100px;
+top: 2px;
+}
+
+/* ---------------- Containers ---------------- */
+
+#top-navigation-flex-container {
+    position: relative;
+    height: 256px;
+    display: flex;
+    width: 100vw; 
+    top: -8px; 
+    left: -8px; 
+    background-color: #E14D52;
+    -webkit-box-flex-direction: row;
+    -moz-box-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+#navigation-buttons-container {
+    margin: auto;
+    height: 16px;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    left: 180px;
+}
+
+#profile-buttons-container {
+    margin: auto;
+    height: 16px;
+    text-align: center;
+    position: relative;
+    bottom: 240px;
+}
+
+#profile-container {
+    position: relative;
+    margin: auto;
+    height:16px;
+    text-align: center;
+    bottom: 70px;
+    left: -550px;
+}
+
+#card-container {
+    background-color: #ffffff;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    height: 320px;
+    width: 696px;
+    bottom: 150px;
+    left: 180px;
+    border-radius: 15px;
+    transform: scale(0.8);
+}
+
+/* ---------------- Buttons ---------------- */
+
+.navigation-button {
+    font-family: 'Helvetica', sans-serif;
+    color: #ffffff;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.profile-button {
+    position: relative;
+    height: 45px;
+    width: auto;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #1C1E20;
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin-left: 10px; 
+}
+
+/* ---------------- Buttons on hover ---------------- */
+
+.profile-button:hover {
+    color: #ffffff;
+    background-color: #E14D52;
+}
+
+.navigation-button:hover {
+    color: #ffffff;
+    background-color: #1C1E20;
+}
+
+/* ---------------- Images ---------------- */
+
+.profile-picture {
+    position: relative;
+    bottom: 230px;
+    right: 520px;
+    width: 296px;
+    height: 240px;  
+    border-radius: 10px;
+}
+
+/* ---------------- Device Optimization (930px or less) ---------------- */
+
+@media only screen and (max-width: 930px) {
+
+    #card-container {
+        top: 100px;
+        left: 0px;
+    }
+
+    .profile-picture {
+        bottom: 500px;
+        left: 0px;
+    }
+
+    #profile-container {
+        bottom: 390px;
+        left: -300px;
+    }
+
+    #navigation-buttons-container {
+        bottom: 400px;
+        left: 250px;
+    }
+}
+/* ---------------- Device Optimization (660 or less px) ---------------- */
+
+@media only screen and (max-width: 660px) {
+
+    #card-container {
+        top: 40px;
+        left: -50px;
+        transform: scale(0.7);
+    }
+
+    .profile-picture {
+        bottom: 500px;
+        left: 0px;
+    }
+
+    #profile-container {
+        left: -300px;
+    }
+
+    #navigation-buttons-container {
+        bottom: 400px;
+        left: 40vw;
+    }
+}
+
+/* ---------------- Device Optimization (560 or less px) ---------------- */
+
+@media only screen and (max-width: 560px) {
+
+    #card-container {
+        top: 0px;
+        left: -80px;
+        transform: scale(0.6);
+    }
+
+    #profile-container {
+        left: -300px;
+    }
+
+    #navigation-buttons-container {
+        bottom: 400px;
+        left: 40vw;
+    }
+}
+
+/* ---------------- Device Optimization (560 or less px) ---------------- */
+
+@media only screen and (max-width: 460px) {
+
+    #card-container {
+        top: -40px;
+        left: -140px;
+        transform: scale(0.5);
+    }
+
+    #profile-container {
+        left: -300px;
+    }
+
+    #navigation-buttons-container {
+        bottom: 400px;
+        left: 40vw;
+    }
+}
+
+/* ---------------- Mobile Optimization (iPhone X, 6+, 7+  8+ 6, 6S, 7, 8,  5, 5S, 5C and 5SE and iPad)---------------- */
+
+@media (min-device-width: 768px) and (max-device-width: 1024px), 
+(min-device-width: 320px) and (max-device-width: 568px), 
+(min-device-width: 375px) and (max-device-width: 667px), 
+(min-device-width: 375px) and (max-device-width: 812px)  { 
+
+    #card-container {
+        top: 400px;
+        left: 0px;
+        transform: scale(1.2);
+    }
+
+    .profile-picture {
+        bottom: 530px;
+        left: 0px;
+    }
+
+    #profile-container {
+        bottom: 500px;
+        left: 20px;
+    }
+
+    #navigation-buttons-container {
+        bottom: 400px;
+        left: 0px;
+    }
+
+    .navigation-button {
+        font-size: 30px;
+    }
+
+    .person-name {
+        font-size: 50px;
+    }
+
+    .small-icon {
+        font-size: 50px;
+        right: 220px;
+        top: 30px;
+    }
+
+    .about-title {
+        font-size: 30px;
+    }
+ }
